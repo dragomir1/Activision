@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Activision</title>
+    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script>  
+    $(function () {
+      $( "#video" ).dialog({
+        autoOpen: false,
+        height: "auto",
+        width: "auto",
+        position: { my: "center", at: "center", of: window },
+        modal: true,
+      });
+  
+    $("#showHide").click(function() {
+      $("#video").dialog('open');
+    });
+  });
+  </script>
+</head>
+<body>
+ <div id="container">
+       <p>
+      The world's first independent developer and distributor of video console games & one of the largest third party video game publishers in the world.
+       </p>
+       <button id="showHide" class=" btn ui-button ui-widget ui-corner-all">LEARN MORE</button>
+        <div id="video">
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+    </div>
+  </div> 
+</body>
+</html>
