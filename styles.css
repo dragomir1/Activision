@@ -19,6 +19,7 @@ p {
 
 .btn {
   padding: 8px 35px !important;
+  font-size: 16px !important;
 }
 
 @media only screen and (max-width: 500px) {
