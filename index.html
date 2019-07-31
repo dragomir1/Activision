@@ -7,6 +7,7 @@
     <title>Activision</title>
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script src="index.js"></script>
     <link
       rel="stylesheet"
       href="https://code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css"
@@ -16,21 +17,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script>
-      $(function() {
-        $("#video").dialog({
-          autoOpen: false,
-          height: "auto",
-          width: "auto",
-          position: { my: "center", at: "center", of: window },
-          modal: true
-        });
-
-        $("#showHide").click(function() {
-          $("#video").dialog("open");
-        });
-      });
-    </script>
   </head>
   <body>
     <div id="main_container">
