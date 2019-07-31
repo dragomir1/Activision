@@ -4,13 +4,14 @@ body {
   background: url("images/hero_img_01.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-#container {
+
+#main_container {
   margin: 0 auto;
   margin-top: 300px;
   width: 60%;
   text-align: center;
   font-size: 25px;
-  padding:20px;
+  padding: 20px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -19,8 +20,8 @@ p {
 }
 
 .btn {
-  padding: 8px 35px !important;
-  font-size: 16px !important;
+  padding: 8px 35px;
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -28,6 +29,5 @@ p {
     background: url("images/Hero_img_mobile_01.jpg") no-repeat;
     background-size: 100%;
     margin-top: 300px;
-    ;
   }
 }
